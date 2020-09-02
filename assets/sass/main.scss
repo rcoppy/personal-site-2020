@@ -32,19 +32,8 @@
 
 body {
 
-    // need custom offset for backgrounds on phone screens
-    @include media-breakpoint-down(sm) {
-        background-position-y: 163px;
-        background-position-x: -24px;
-    }
-
-    background-position: 0 0;
-
-    background: url('../images/cartridges_flattened.webp'), linear-gradient(180deg, $champagne-pink, transparent);
-    background-size: contain;
-    background-attachment: fixed;
-
     position: relative;
+    // width: 100vw;
     min-height: 100vh;
     
     overflow-x: hidden;
@@ -52,6 +41,25 @@ body {
     z-index: 1;
 
     pointer-events: none;
+}
+
+header::before, footer::before {
+    background-size: cover;
+    background-position-x: 100vw !important;
+    background-position-y: 83vh !important;
+
+    background: url('../images/hero-road.png'); //, linear-gradient(180deg, $champagne-pink, transparent);
+    
+    background-attachment: fixed;
+
+    content:'';
+    
+    width: inherit;
+    height: 100vh;
+    display: block;
+    position: absolute;
+
+    filter: blur(2px);
 }
 
 .page-wrapper {
@@ -115,7 +123,7 @@ header, footer {
 }
 
 header {
-    background: linear-gradient(0deg, $header-dark-blue, rgba($header-dark-blue, 0.2));
+    // background: linear-gradient(0deg, $header-dark-blue, rgba($header-dark-blue, 0.2));
     background-attachment: scroll;
     
     width: 100%;
