@@ -3,7 +3,9 @@
 
 // FYI order of imports matters
 
-@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100&display=swap');
 
 @import "variables";
 @import "custom";
@@ -50,11 +52,19 @@ header::before, footer::before {
     // I think bootstrap overrides these values
     background-size: cover !important;
     background-position-x: 107vw !important;
-    background-position-y: 83vh !important;
+    // background-position-y: 83vh !important;
 
     @include media-breakpoint-up(md) {
         background-position-x: 0 !important;
-        background-position-y: 53vh !important;
+        background-position-y: 0 !important;
+    }
+
+    // @include media-breakpoint-up(lg) {
+    //     background-position-y: -28vh !important;
+    // }
+
+    @media (min-aspect-ratio: 16/9) {
+        background-position-y: -28vh !important;
     }
 
     background: url('../images/hero-road.png'); //, linear-gradient(180deg, $champagne-pink, transparent);

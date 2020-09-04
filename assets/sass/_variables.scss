@@ -10,7 +10,7 @@ $cartridge-red: #F70001ff;
 $header-dark-blue: #708ad2;
 
 // assignments
-$header_color: $black-coffee;
+$header_color: $champagne-pink;
 $navbar_color: rgba($black-coffee, 0.8);
 
 $hyperlink_color: desaturate(darken($neon-blue, 25%), 20%);
@@ -27,11 +27,11 @@ $code_text_color: darken($middle-blue-purple, 25%);
 $code_border_radius: 4px; 
 
 $navbar_height: 10vh;
-$header_height: 30vh + $navbar_height;
+$header_height: 100vh; // 79vh + $navbar_height; // 30vh + $navbar_height;
 $footer_height: 20vh;
 $gallery_card_height: (100vh - $header_height - $footer_height - 6vh) / 1.5;
 
-$mobile_header_height: 65vh + $navbar_height;
+$mobile_header_height: 100vh; // 65vh + $navbar_height;
 $mobile_footer_height: 40vh;
 $mobile_gallery_card_height: 40vh;
 
