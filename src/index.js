@@ -24,15 +24,16 @@ const cachedCSSAttributes = {
 };
 
 const setNavPositioning = (direction) => {
-    console.log(window.scrollY);
-
+    
     if (direction === 'up') {
         header.style.position = cachedCSSAttributes.headerPosition;
         header.style.top = cachedCSSAttributes.headerTop;
         wrapper.style.marginTop = cachedCSSAttributes.wrapperMarginTop;
+        header.classList.remove('is-scrolling');
     } else {
         header.style.position = 'fixed';
         header.style.top = `-${header.offsetHeight - navbar.offsetHeight}px`;
         wrapper.style.marginTop = `${parseInt(cachedCSSAttributes.wrapperMarginTop) + header.offsetHeight}px`;
+        header.classList.add('is-scrolling');
     }
 };
