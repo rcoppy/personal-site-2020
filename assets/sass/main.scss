@@ -44,7 +44,7 @@ body {
 
     pointer-events: none;
 
-    background: url('../images/vintage-wallpaper-crunch.png');
+    background: url('../images/lilypads_tinted-crunch.png');
     background-repeat: repeat;
     background-attachment: fixed;
 }
@@ -56,9 +56,6 @@ header.is-scrolling::before {
 header::before {
     opacity: 1;
     @include transition(opacity 0.4s ease-in-out);
-}
-
-header::before, footer::before {
 
     // I think bootstrap overrides these values
     background-size: cover !important;
@@ -103,13 +100,23 @@ header::before, footer::before {
 
 .wrapper.content {
     z-index: 0;
-    box-shadow: 0 0 2rem darken($middle-blue-purple, 40%);
+    box-shadow: 0 24px 105px darken($volt-blue, 60%);
     min-height: 100vh - $header_height - $mobile_footer_height;
     flex-grow: 1;
 
     // background: $black-coffee; 
     // background-size: cover;
     // background-attachment: fixed;
+
+    // background: url('../images/');
+    // background-repeat: repeat;
+    
+    background: url('../images/crab_council_trace-transparent-blurred-crunch.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: 59vw;
+    background-position-y: 30vh;
+    background-size: contain;
     
     padding-top: 1rem;
     pointer-events: none;
@@ -131,8 +138,11 @@ header::before, footer::before {
     padding-bottom: 1rem;
 
     @include media-breakpoint-up(md) {
-        width: 50%;
         padding: 1rem 2rem;
+        
+        // change positioning and width slightly on desktop resolution
+        margin-left: 16vw;
+        width: 55vw;
     }
 
     margin-top: 1rem;
@@ -174,8 +184,8 @@ header::after {
     background: url('../images/vintage-wallpaper-crunch.png');
     background-repeat: repeat;
     background-attachment: fixed;  
-    background-size: 580px;
-    background-position: 128px 128px;
+    //background-size: 580px;
+    //background-position: 128px 128px;
 
     z-index: -1;
 }
@@ -195,7 +205,7 @@ header {
         min-height: $mobile_header_height;
     }
 
-    box-shadow: 0 0 2rem darken($middle-blue-purple, 30%);
+    box-shadow: 0 0 64px darken($volt-blue, 30%);
     position: relative;
     z-index: 2;
 
@@ -219,8 +229,9 @@ footer {
         }
     }
 
-    background: linear-gradient(180deg, rgba($black-coffee, 0.95), rgba($black-coffee, 0.8));
-    background-position-y: center;
+    background: url('../images/vintage-wallpaper-crunch.png');
+    background-repeat: repeat;
+    background-size: 300px;
 
     @include media-breakpoint-down(md) {
         min-height: $mobile_footer_height;
@@ -229,7 +240,7 @@ footer {
     width: 100%;
     z-index: -1;
 
-    padding-top: 2rem;
+    padding-top: 4.5rem;
 }
 
 p img {
@@ -292,4 +303,9 @@ section {
 hr {
     width: 66%;
     border-top: 1px dashed desaturate(lighten($middle-blue-purple, 15%), 20%);
+}
+
+span.section-marker {
+    position: relative; 
+    top: -10vh;
 }
