@@ -14,7 +14,7 @@ On the side, I head the tiny interactive media company Dossamer, a registered Ni
 
 I also dabble in voice over narration and audio production, and every once in a while crank out some visual media.
 
-I based this website on a template I wrote from scratch for a friend. It's fully mobile-responsive and (mostly) SEO-optimized (and it supports **markdown**!); if you'd like to use it as a base for your own projects, feel free to [grab the source here]() 🙂
+I based this website on a template I wrote from scratch for a friend. It's fully mobile-responsive and (mostly) SEO-optimized (and it supports **markdown**!); if you'd like to use it as a base for your own projects, feel free to [grab the source here](https://github.com/rcoppy/pug-portfolio) 🙂
 
 <span class="section-marker" id="career"></span>
 
@@ -30,8 +30,21 @@ For six months in the second half of 2018, I was a **contract Unity developer** 
 
 ## Skillsets
 
-*This is actually the third or fourth iteration of my portfolio site, and I'm still working on porting over resources from the last one--for now, you can find links to previous (albeit dated) projects [here].*
+*This is actually the third or fourth iteration of my portfolio site, and I'm still working on porting over resources from the last one--for now, you can find links to previous (albeit dated) projects [here](https://alexruppcoppi.com/).*
 
+<div class="link-collection">
+    <a href="#webdev">webdev</a>
+    <a href="#gamedev">gamedev</a>
+    <a href="#systems-programming">systems programming</a>
+    <a href="#unix-linux">Unix/Linux</a>
+    <a href="#aws">AWS</a>
+    <a href="#audio-engineering">audio engineering</a>
+    <a href="#video-editing">video editing</a>
+    <a href="#twitch-streaming">Twitch</a>
+    <a href="#cad">CAD</a>
+</div>
+
+<span class="section-marker" id="webdev"></span>
 
 ### webdev 
 - HTML5/CSS3/JS
@@ -50,6 +63,7 @@ For six months in the second half of 2018, I was a **contract Unity developer** 
 - Ruby/Rails
 - PostgreSQL
 
+<span class="section-marker" id="gamedev"></span>
 
 ### gamedev
 - Unity (less and less, though; the engine under current leadership is taking a bit of a nosedive)
@@ -59,10 +73,12 @@ For six months in the second half of 2018, I was a **contract Unity developer** 
 - Modeling/rigging/animating in Blender 2.8
 - Texture and 2D visual graphics work (proficient with PhotoShop)
 
+<span class="section-marker" id="systems-programming"></span>
 
 ### systems programming
 Took a crashcourse at Columbia in C; got me familiar with Makefiles, linkers, etc. 
 
+<span class="section-marker" id="unix-linux"></span>
 
 ### UNIX/Linux
 Because how can you not! lol
@@ -75,26 +91,31 @@ I'm not at the level where I can actually contribute to any of those projects, b
 
 And just to cover all the bases, I'm perfectly comfortable with ssh, FTP, command-line git, vim, and setting up the latest Minecraft server build as a system process 😁
 
+<span class="section-marker" id="aws"></span>
 
 ### AWS
 - Working a little bit with Lambdas (spinning up localstack instances for testing API endpoints)
 - Configuring/deploying/managing an Elastic Beanstalk Wordpress blog/podcast feed (S3 + EC2 + EFS + RDS)
 - Maintaining a single-instance EC2 Minecraft server for the little cousins
 
+<span class="section-marker" id="audio-engineering"></span>
 
 ### audio engineering
 - Proficient in Ableton Live (as an engineer, not a producer--getting there still 🙃)
 - Working with audio interfaces, condenser mics, multi-PC setups
 - Okay at Adobe Audition (it's like fancier Audacity)
 
+<span class="section-marker" id="video-editing"></span>
 
 ### video editing
 Premiere is crazy expensive but it's also crazy fun! 
 
+<span class="section-marker" id="twitch-streaming"></span>
 
 ### Twitch streaming??
 We all have our hobbies hehe 
 
+<span class="section-marker" id="cad"></span>
 
 ### CAD 
 Did a brief stint with Fusion360 for some hardware prototyping. 

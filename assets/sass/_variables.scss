@@ -38,7 +38,7 @@ $code_background_color: darken($champagne-pink, 10%);
 $code_text_color: darken($middle-blue-purple, 25%);
 $code_border_radius: 4px; 
 
-$navbar_height: 11vh;
+$navbar_height: 10vh;
 $header_height: 100vh; // 79vh + $navbar_height; // 30vh + $navbar_height;
 $footer_height: 20vh;
 $gallery_card_height: (100vh - $header_height - $footer_height - 6vh) / 1.5;
